@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <!-- Header -->
   <header class="header">
     <div class="container">
       <a href="#" class="logo">Portfolio</a>
-      
+
       <!-- Desktop Navigation -->
       <nav class="nav-desktop">
         <a href="#about" class="nav-link">About</a>
@@ -25,8 +27,9 @@
           <i class="fas fa-sun sun-icon"></i>
           <i class="fas fa-moon moon-icon"></i>
         </button>
+        <!-- <a href="#cool" class="logo">DAMN</a> -->
       </nav>
-      
+
       <!-- Mobile Navigation Toggle -->
       <div class="mobile-nav-toggle">
         <button id="theme-toggle-mobile" class="theme-toggle" aria-label="Toggle theme">
@@ -38,7 +41,7 @@
         </button>
       </div>
     </div>
-    
+
     <!-- Mobile Navigation Menu -->
     <div id="mobile-menu" class="mobile-menu">
       <nav class="nav-mobile">
@@ -59,22 +62,24 @@
           <h1 class="hero-title">Hi, I'm <span class="highlight">Dhanuj</span></h1>
           <h2 class="hero-subtitle">Software Developer & Designer</h2>
           <p class="hero-description">
-            I build exceptional digital experiences with modern technologies. Passionate about creating intuitive and impactful solutions.
+            I build exceptional digital experiences with modern technologies. Passionate about creating intuitive and
+            impactful solutions.
           </p>
           <div class="hero-buttons">
             <a href="#contact" class="btn btn-primary">Get in Touch</a>
             <a href="#projects" class="btn btn-outline">View My Work</a>
           </div>
           <div class="social-links">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/DhanujMalik" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <i class="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/dhanuj-malik-20538431b/" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="mailto:your.email@example.com" aria-label="Email">
+              <!-- </a>
+            <a href="dhanuj23194@iiitd.ac.in" aria-label="Email">
               <i class="fas fa-envelope"></i>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -92,46 +97,34 @@
           <h2 class="section-title">About Me</h2>
           <div class="section-divider"></div>
         </div>
-        
+
         <div class="about-content">
           <div class="about-image">
-            <img src="https://via.placeholder.com/400" alt="Profile" />
+            <img src="WhatsApp Image 2025-07-07 at 14.25.59_96ce6c70.jpg" alt="Profile" />
           </div>
-          
+
           <div class="about-text">
             <h3 class="about-subtitle">Who I Am</h3>
             <p>
-              I'm a passionate software developer with over 5 years of experience creating web applications and digital solutions. My journey in technology began when I built my first website at the age of 15, and I've been hooked ever since.
-            </p>
+              I'm a Computer Science undergraduate at IIIT Delhi with a passion for building impactful software and
+              solving real-world problems through code. My core strengths lie in AI/ML, computer vision, and full-stack
+              development, with hands-on experience in projects ranging from autonomous wheelchairs to e-commerce
+              platforms. </p>
             <p>
-              I specialize in front-end development with React and Next.js, but I'm also proficient in back-end technologies. I believe in writing clean, maintainable code and creating intuitive user experiences that solve real problems.
-            </p>
-            
+              I've developed systems that combine deep tech and usability—like an AI-powered cell segmentation tool for
+              microscopy and a smart navigation wheelchair for enhanced mobility. I'm also actively involved in campus
+              life, serving as the President of the Machaan club and organizing major student events. </p>
+            <p>Proficient in Python, Java, and C++, I enjoy blending problem-solving skills with creativity—whether it's
+              in hackathons, game development, or collaborative software builds. I'm always exploring ways to learn more
+              and build better.</p>
             <div class="about-details">
-              <div class="detail-item">
-                <h4>Name:</h4>
-                <p>Your Name</p>
-              </div>
-              <div class="detail-item">
-                <h4>Email:</h4>
-                <p>your.email@example.com</p>
-              </div>
-              <div class="detail-item">
-                <h4>Location:</h4>
-                <p>City, Country</p>
-              </div>
-              <div class="detail-item">
-                <h4>Availability:</h4>
-                <p>Available for hire</p>
-              </div>
+
+              <a href="ResumeDhanuj.pdf" download class="btn btn-primary">
+                <i class="fas fa-file-alt"></i> Download Resume
+              </a>
             </div>
-            
-            <a href="resume.pdf" download class="btn btn-primary">
-              <i class="fas fa-file-alt"></i> Download Resume
-            </a>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- Projects Section -->
@@ -141,127 +134,141 @@
           <h2 class="section-title">My Projects</h2>
           <div class="section-divider"></div>
           <p class="section-description">
-            Here are some of my recent projects. Each one was built to solve a specific problem or to learn new technologies.
+            Here are some of my recent projects. Each one was built to solve a specific problem or to learn new
+            technologies.
           </p>
         </div>
-        
-        <div class="project-filters">
+
+        <!-- <div class="project-filters">
           <button class="filter-btn active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="next.js">Next.js</button>
           <button class="filter-btn" data-filter="react">React</button>
           <button class="filter-btn" data-filter="javascript">JavaScript</button>
           <button class="filter-btn" data-filter="api">API</button>
-        </div>
-        
+        </div> -->
+
         <div class="project-grid">
           <!-- Project 1 -->
           <div class="project-card" data-tags="next.js,react,tailwind,stripe">
             <div class="project-image">
-              <img src="https://via.placeholder.com/600x400" alt="E-Commerce Platform" />
+              <img src="ChatGPT Image Jul 7, 2025, 10_59_24 PM.png" alt="E-Commerce Platform" />
             </div>
             <div class="project-content">
-              <h3 class="project-title">E-Commerce Platform</h3>
+              <h3 class="project-title">GoCart - Unified E-Commerce & Instant Delivery Platform</h3>
               <p class="project-description">
-                A full-stack e-commerce platform built with Next.js, Tailwind CSS, and Stripe for payments.
+                Built a full-stack shopping platform integrating traditional e-commerce and instant delivery
+                systems.
               </p>
               <div class="project-tags">
-                <span class="tag">Next.js</span>
-                <span class="tag">React</span>
-                <span class="tag">Tailwind CSS</span>
-                <span class="tag">Stripe</span>
+                <span class="tag">Full-Stack</span>
+                <span class="tag">Java</span>
+                <span class="tag">Logistics</span>
+                <span class="tag">Inventory</span>
+                <span class="tag">Delivery</span>
               </div>
               <div class="project-links">
-                <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <a href="https://github.com/DhanujMalik/dbmsgocart" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline">
                   <i class="fab fa-github"></i> Code
                 </a>
-                <a href="https://project1.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <!-- <a href="https://project1.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
                   <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
-          
+
           <!-- Project 2 -->
           <div class="project-card" data-tags="react,firebase">
             <div class="project-image">
-              <img src="https://via.placeholder.com/600x400" alt="Task Management App" />
+              <img src="erp.png" alt="Mini ERP System" />
             </div>
             <div class="project-content">
-              <h3 class="project-title">Task Management App</h3>
+              <h3 class="project-title">Mini ERP System</h3>
               <p class="project-description">
-                A productivity app for managing tasks and projects with real-time updates.
+                Enhanced a Java-based academic ERP system with course registration and user-specific role
+                menus.
               </p>
               <div class="project-tags">
-                <span class="tag">React</span>
-                <span class="tag">Firebase</span>
-                <span class="tag">Material UI</span>
+                <span class="tag">Java</span>
+                <span class="tag">ERP</span>
+                <span class="tag">GUI</span>
+                <span class="tag">Management</span>
               </div>
               <div class="project-links">
-                <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <a href="https://github.com/DhanujMalik/ap-assignment-1" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline">
                   <i class="fab fa-github"></i> Code
                 </a>
-                <a href="https://project2.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <!-- <a href="https://project2.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
                   <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
-          
+
           <!-- Project 3 -->
           <div class="project-card" data-tags="javascript,api">
             <div class="project-image">
-              <img src="https://via.placeholder.com/600x400" alt="Weather Dashboard" />
+              <img src="angrybird.png" alt="Angry Bird" />
             </div>
             <div class="project-content">
-              <h3 class="project-title">Weather Dashboard</h3>
+              <h3 class="project-title">Angry Bird</h3>
               <p class="project-description">
-                A weather application that displays current and forecasted weather data.
+                Developed a 2D physics-based game inspired by Angry Birds using Java, LibGDX, and LWJGL.
               </p>
               <div class="project-tags">
-                <span class="tag">JavaScript</span>
-                <span class="tag">API</span>
-                <span class="tag">CSS</span>
+                <span class="tag">Java</span>
+                <span class="tag">LibGDX</span>
+                <span class="tag">LWJGL</span>
+                <span class="tag">Game Dev</span>
+                <span class="tag">2D</span>
               </div>
+
               <div class="project-links">
-                <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <a href="https://github.com/DhanujMalik/approjectfinal" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline">
                   <i class="fab fa-github"></i> Code
                 </a>
-                <a href="https://project3.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <!-- <a href="https://project3.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
                   <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
-          
+
           <!-- Project 4 -->
           <div class="project-card" data-tags="next.js,tailwind">
             <div class="project-image">
-              <img src="https://via.placeholder.com/600x400" alt="Portfolio Website" />
+              <img src="hci.png" alt="Smart Navigation Wheelchair System (SNWS)" />
             </div>
             <div class="project-content">
-              <h3 class="project-title">Portfolio Website</h3>
+              <h3 class="project-title">Smart Navigation Wheelchair System (SNWS)</h3>
               <p class="project-description">
-                A personal portfolio website to showcase projects and skills.
+                Developed an autonomous wheelchair system for safe, independent navigation in crowded
+                environments.
               </p>
               <div class="project-tags">
-                <span class="tag">Next.js</span>
-                <span class="tag">Tailwind CSS</span>
-                <span class="tag">Framer Motion</span>
+                <span class="tag">IoT</span>
+                <span class="tag">Arduino</span>
+                <span class="tag">Java</span>
+                <span class="tag">Navigation</span>
+                <span class="tag">Pathfinding</span>
               </div>
+
               <div class="project-links">
-                <a href="https://github.com/yourusername/project4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <a href="https://github.com/dhonimalik/Smart-Navigation-Wheelchair-System-SNWS-" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-sm btn-outline">
                   <i class="fab fa-github"></i> Code
                 </a>
-                <a href="https://project4.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+
               </div>
             </div>
           </div>
         </div>
-        
+
         <div class="projects-more">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <a href="https://github.com/DhanujMalik" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
             View More on GitHub
           </a>
         </div>
@@ -278,158 +285,69 @@
             I've worked with a variety of technologies and tools. Here's an overview of my technical skills.
           </p>
         </div>
-        
+
         <div class="skills-grid">
-          <!-- Frontend Skills -->
+
+          <!-- Skill Category Template -->
           <div class="skills-category">
-            <h3 class="category-title">
-              <span class="category-number">1</span>
-              Frontend Development
-            </h3>
-            <div class="skills-list">
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">HTML/CSS</span>
-                  <span class="skill-level">90%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 90%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">JavaScript</span>
-                  <span class="skill-level">85%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 85%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">React</span>
-                  <span class="skill-level">80%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 80%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">Next.js</span>
-                  <span class="skill-level">75%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 75%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">Tailwind CSS</span>
-                  <span class="skill-level">85%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 85%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">Responsive Design</span>
-                  <span class="skill-level">85%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 85%"></div>
-                </div>
-              </div>
-            </div>
+            <h3 class="category-title"><span class="category-number">1</span> Programming Languages</h3>
+            <ul class="pill-list">
+              <li class="pill">Python</li>
+              <li class="pill">Java</li>
+              <li class="pill">C++</li>
+              <li class="pill">C</li>
+            </ul>
           </div>
-          
-          <!-- Backend Skills -->
+
           <div class="skills-category">
-            <h3 class="category-title">
-              <span class="category-number">2</span>
-              Backend Development
-            </h3>
-            <div class="skills-list">
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">Node.js</span>
-                  <span class="skill-level">70%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 70%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">Express</span>
-                  <span class="skill-level">65%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 65%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">MongoDB</span>
-                  <span class="skill-level">60%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 60%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">SQL</span>
-                  <span class="skill-level">65%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 65%"></div>
-                </div>
-              </div>
-            </div>
+            <h3 class="category-title"><span class="category-number">2</span> Core CS Concepts</h3>
+            <ul class="pill-list">
+              <li class="pill">Data Structures & Algorithms</li>
+              <li class="pill">OOP</li>
+              <li class="pill">Operating Systems</li>
+              <li class="pill">DBMS</li>
+            </ul>
           </div>
-          
-          <!-- Other Skills -->
+
           <div class="skills-category">
-            <h3 class="category-title">
-              <span class="category-number">3</span>
-              Other Skills
-            </h3>
-            <div class="skills-list">
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">Git</span>
-                  <span class="skill-level">80%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 80%"></div>
-                </div>
-              </div>
-              
-              <div class="skill-item">
-                <div class="skill-header">
-                  <span class="skill-name">UI/UX Design</span>
-                  <span class="skill-level">70%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 70%"></div>
-                </div>
-              </div>
-            </div>
+            <h3 class="category-title"><span class="category-number">3</span> Tools & Technologies</h3>
+            <ul class="pill-list">
+              <li class="pill">Git & GitHub</li>
+              <li class="pill">MySQL</li>
+              <li class="pill">IntelliJ IDEA</li>
+              <li class="pill">Arduino</li>
+              <li class="pill">VirtualBox</li>
+            </ul>
           </div>
+
+          <div class="skills-category">
+            <h3 class="category-title"><span class="category-number">4</span> UI/UX & Design</h3>
+            <ul class="pill-list">
+              <li class="pill">Figma</li>
+              <li class="pill">Miro</li>
+              <li class="pill">Canva</li>
+            </ul>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="category-title"><span class="category-number">5</span> Game Development</h3>
+            <ul class="pill-list">
+              <li class="pill">LibGDX</li>
+              <li class="pill">Box2D</li>
+            </ul>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="category-title"><span class="category-number">6</span> Computer Vision</h3>
+            <ul class="pill-list">
+              <li class="pill">OpenCV</li>
+              <li class="pill">ilastik</li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </section>
-
     <!-- Achievements Section -->
     <section id="achievements" class="achievements">
       <div class="container">
@@ -437,176 +355,128 @@
           <h2 class="section-title">Achievements</h2>
           <div class="section-divider"></div>
           <p class="section-description">
-            My professional journey, education, certifications, and awards.
+            My awards, leadership roles, and other accomplishments.
           </p>
         </div>
-        
+
         <div class="tabs">
+          <!-- Tab Buttons -->
           <div class="tabs-header">
             <button class="tab-btn active" data-tab="experience">
               <i class="fas fa-briefcase"></i>
               <span>Experience</span>
             </button>
-            <button class="tab-btn" data-tab="education">
+            <button class="tab-btn" data-tab="leadership">
               <i class="fas fa-graduation-cap"></i>
-              <span>Education</span>
-            </button>
-            <button class="tab-btn" data-tab="certifications">
-              <i class="fas fa-book"></i>
-              <span>Certifications</span>
-            </button>
-            <button class="tab-btn" data-tab="awards">
-              <i class="fas fa-award"></i>
-              <span>Awards</span>
+              <span>Leadership & Roles</span>
             </button>
           </div>
-          
+
+          <!-- Tab Contents -->
           <div class="tabs-content">
             <!-- Experience Tab -->
             <div class="tab-pane active" id="experience">
               <div class="achievement-card">
                 <div class="achievement-header">
                   <div>
-                    <h3 class="achievement-title">Senior Frontend Developer</h3>
-                    <p class="achievement-subtitle">Tech Company Inc.</p>
+                    <h3 class="achievement-title">ML AI-based Cell Segmentation and Tracking Automation</h3>
+                    <p class="achievement-subtitle">IIITD</p>
                   </div>
-                  <span class="achievement-period">2021 - Present</span>
+                  <span class="achievement-period">May, 25 – Present</span>
                 </div>
                 <p class="achievement-description">
-                  Led the development of the company's main product using React and Next.js. Implemented new features and improved performance by 40%.
+                  Developing software to automate cell segmentation and tracking in microscopy videos using machine
+                  learning and image processing techniques. Leveraged tools like OpenCV and ilastik to apply trained
+                  models for accurate, real-time biological image analysis.
                 </p>
               </div>
-              
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">Frontend Developer</h3>
-                    <p class="achievement-subtitle">Digital Agency</p>
-                  </div>
-                  <span class="achievement-period">2019 - 2021</span>
-                </div>
-                <p class="achievement-description">
-                  Developed responsive websites and web applications for various clients. Worked with React, Vue.js, and vanilla JavaScript.
-                </p>
-              </div>
-              
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">Junior Web Developer</h3>
-                    <p class="achievement-subtitle">Startup XYZ</p>
-                  </div>
-                  <span class="achievement-period">2017 - 2019</span>
-                </div>
-                <p class="achievement-description">
-                  Started as an intern and grew into a full-time role. Worked on the company's web application using HTML, CSS, and JavaScript.
-                </p>
-              </div>
-            </div>
-            
-            <!-- Education Tab -->
-            <div class="tab-pane" id="education">
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">Master of Computer Science</h3>
-                    <p class="achievement-subtitle">University Name</p>
-                  </div>
-                  <span class="achievement-period">2015 - 2017</span>
-                </div>
-                <p class="achievement-description">
-                  Specialized in web technologies and software engineering. Graduated with honors.
-                </p>
-              </div>
-              
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">Bachelor of Computer Science</h3>
-                    <p class="achievement-subtitle">University Name</p>
-                  </div>
-                  <span class="achievement-period">2011 - 2015</span>
-                </div>
-                <p class="achievement-description">
-                  Studied computer science fundamentals, algorithms, and data structures. Participated in coding competitions and won the university hackathon.
-                </p>
-              </div>
-            </div>
-            
-            <!-- Certifications Tab -->
-            <div class="tab-pane" id="certifications">
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">AWS Certified Developer</h3>
-                    <p class="achievement-subtitle">Amazon Web Services</p>
-                  </div>
-                  <span class="achievement-period">2022</span>
-                </div>
-                <a href="https://example.com/cert1" target="_blank" rel="noopener noreferrer" class="certificate-link">
-                  View Certificate
-                </a>
-              </div>
-              
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">React Developer Certification</h3>
-                    <p class="achievement-subtitle">Meta</p>
-                  </div>
-                  <span class="achievement-period">2021</span>
-                </div>
-                <a href="https://example.com/cert2" target="_blank" rel="noopener noreferrer" class="certificate-link">
-                  View Certificate
-                </a>
-              </div>
-              
-              <div class="achievement-card">
-                <div class="achievement-header">
-                  <div>
-                    <h3 class="achievement-title">Professional Web Developer</h3>
-                    <p class="achievement-subtitle">Google</p>
-                  </div>
-                  <span class="achievement-period">2020</span>
-                </div>
-                <a href="https://example.com/cert3" target="_blank" rel="noopener noreferrer" class="certificate-link">
-                  View Certificate
+              <div class="project-links">
+                <a href="https://github.com/dhonimalik/AI-ML-based-Cell-Segmentation-and-Tracking-Automation"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fab fa-github"></i> Code
                 </a>
               </div>
             </div>
-            
-            <!-- Awards Tab -->
-            <div class="tab-pane" id="awards">
+
+            <!-- Leadership Tab -->
+            <!-- Leadership Tab -->
+            <div class="tab-pane" id="leadership">
               <div class="achievement-card">
                 <div class="achievement-header">
                   <div>
-                    <h3 class="achievement-title">Best Web Application</h3>
-                    <p class="achievement-subtitle">Tech Conference 2022</p>
+                    <h3 class="achievement-title">President</h3>
+                    <p class="achievement-subtitle">Machaan IIITD Club</p>
                   </div>
-                  <span class="achievement-period">2022</span>
+                  <span class="achievement-period">Aug, 24 – Present</span>
                 </div>
                 <p class="achievement-description">
-                  Awarded for developing an innovative web application that solved a real-world problem.
+                  Leading the Machaan Club at IIIT Delhi, overseeing club initiatives, cultural productions, and
+                  inter-college collaborations to foster performing arts on campus.
                 </p>
               </div>
-              
+
               <div class="achievement-card">
                 <div class="achievement-header">
                   <div>
-                    <h3 class="achievement-title">Outstanding Contributor</h3>
-                    <p class="achievement-subtitle">Open Source Community</p>
+                    <h3 class="achievement-title">Organizing Team Member</h3>
+                    <p class="achievement-subtitle">Odyssey 24</p>
                   </div>
-                  <span class="achievement-period">2021</span>
+                  <span class="achievement-period">Aug, 23 – Aug, 24</span>
                 </div>
                 <p class="achievement-description">
-                  Recognized for significant contributions to open-source projects.
+                  Helped coordinate and manage IIIT Delhi’s flagship cultural fest, including planning, logistics, and
+                  execution of major events.
+                </p>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-header">
+                  <div>
+                    <h3 class="achievement-title">Student Council Member</h3>
+                    <p class="achievement-subtitle">IIIT Delhi</p>
+                  </div>
+                  <span class="achievement-period">Aug, 24 – Present</span>
+                </div>
+                <p class="achievement-description">
+                  Representing the student body in official institutional matters and contributing to decisions
+                  impacting student life and policies.
+                </p>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-header">
+                  <div>
+                    <h3 class="achievement-title">Farewell Events Organizing Committee</h3>
+                    <p class="achievement-subtitle">IIIT Delhi</p>
+                  </div>
+                  <span class="achievement-period">Aug, 24 – Present</span>
+                </div>
+                <p class="achievement-description">
+                  Contributed to planning and managing farewell celebrations for graduating students, including program
+                  design, logistics, and student engagement.
+                </p>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-header">
+                  <div>
+                    <h3 class="achievement-title">Induction Events Organizing Committee</h3>
+                    <p class="achievement-subtitle">IIIT Delhi</p>
+                  </div>
+                  <span class="achievement-period">June, 25 – Present</span>
+                </div>
+                <p class="achievement-description">
+                  Organized orientation and induction activities for incoming batches, aimed at helping new students
+                  transition smoothly into campus life.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+
+          </div> <!-- End tabs-content -->
+        </div> <!-- End tabs -->
+      </div> <!-- End container -->
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -618,7 +488,7 @@
             Have a project in mind or want to collaborate? Feel free to reach out to me.
           </p>
         </div>
-        
+
         <div class="contact-grid">
           <div class="contact-info">
             <div class="contact-card">
@@ -627,31 +497,31 @@
               </div>
               <div class="contact-details">
                 <h3>Email</h3>
-                <p>your.email@example.com</p>
+                <p>dhanuj23194@iiitd.ac.in</p>
               </div>
             </div>
-            
+
             <div class="contact-card">
               <div class="contact-icon">
                 <i class="fas fa-phone"></i>
               </div>
               <div class="contact-details">
                 <h3>Phone</h3>
-                <p>+1 (123) 456-7890</p>
+                <p>+91 8076548727</p>
               </div>
             </div>
-            
+
             <div class="contact-card">
               <div class="contact-icon">
                 <i class="fas fa-map-marker-alt"></i>
               </div>
               <div class="contact-details">
                 <h3>Location</h3>
-                <p>City, Country</p>
+                <p>Delhi, India</p>
               </div>
             </div>
           </div>
-          
+
           <div class="contact-form-container">
             <form id="contact-form" class="contact-form">
               <div class="form-grid">
@@ -659,23 +529,23 @@
                   <label for="name">Name</label>
                   <input type="text" id="name" name="name" required>
                 </div>
-                
+
                 <div class="form-group">
                   <label for="email">Email</label>
                   <input type="email" id="email" name="email" required>
                 </div>
               </div>
-              
+
               <div class="form-group">
                 <label for="subject">Subject</label>
                 <input type="text" id="subject" name="subject" required>
               </div>
-              
+
               <div class="form-group">
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
               </div>
-              
+
               <button type="submit" class="btn btn-primary btn-block">
                 <i class="fas fa-paper-plane"></i> Send Message
               </button>
@@ -696,26 +566,27 @@
             A passionate software developer creating exceptional digital experiences.
           </p>
         </div>
-        
+
         <div class="footer-social">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/DhanujMalik" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/dhanuj-malik-20538431b/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <!-- <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <i class="fab fa-twitter"></i>
           </a>
           <a href="mailto:your.email@example.com" aria-label="Email">
             <i class="fas fa-envelope"></i>
-          </a>
+          </a> -->
         </div>
       </div>
-      
+
       <div class="footer-bottom">
         <p class="copyright">© <span id="current-year"></span> Your Name. All rights reserved.</p>
-        
+
         <div class="footer-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -726,4 +597,5 @@
 
   <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
