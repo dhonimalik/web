@@ -1,4 +1,26 @@
 /* Base Styles */
+
+  .pill-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .pill {
+    background: #1f2937;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background 0.3s ease;
+  }
+  .pill:hover {
+    background: #4b5563;
+  }
 :root {
   --primary: #6366f1;
   --primary-hover: #4f46e5;
